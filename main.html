@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Jain</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9bbc197fa2.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,800;0,900;1,100;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Yash Jain</a>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutMe">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Expertise">Expertise</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-moon" id="dark" class="theme" onclick="dark()"></i>
+        </ul>
+    </header>
+    <!-- Home -->
+    <section id="home">
+        <div class="home">
+            <div class="socials">
+                <a href="https://github.com/Yashjain0007" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yash-jain-632a681b9/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="home-text">
+                <span>Hello I'm</span>
+                <h1>Yash Jain</h1>
+                <span class="frontend">Frontend Developer</span>
+                <p>(And also have the knowledge of HTML, CSS, JAVASCRIPT & JAVA)</p>
+                <a href="#contact"><button class="contactMe">Contact Me</button></a>
+            </div>
+            <div>
+                <img src="my Picture(isbr).jpg" alt="My image" class="myImage">
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutMe">
+        <!-- About Me -->
+        <div class="aboutMe">
+            <div class="aboutMe-heading">
+                <h1 class="aboutMe-h1">About Me</h1>
+                <span class="sub Expertise-sub">Introduction</span>
+            </div>
+            <div class="aboutMe-flex">
+                <div class="about-image">
+                    <img src="aboutPic.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <p class="p"> A motivated individual with in-depth knowledge of languages and development tools,
+                        seeking a
+                        position in
+                        a growth-oriented company where I can use my skills to the advantage of the company while having
+                        the
+                        scope to develop my own skills.
+                    </p>
+                    <div class="about-logo">
+                        <span><i class="fa-solid fa-user"> &nbsp &nbsp</i>Yash Jain</span>
+                        <span><i class="fa-solid fa-phone">&nbsp &nbsp</i>+91 9881344758</span>
+                        <span><i class="fa-solid fa-envelope">&nbsp &nbsp</i>yashjain3446@gmail.com</span>
+                    </div>
+                    <button class="cv-btn"><a href="Yash Jain Resume.pdf" download="">Download CV</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills -->
+    <section class="skills" id="skills">
+        <h1 class="aboutMe-h1 skills-heading">Skills</h1>
+        <div class="skills-heading sub Expertise-sub">My Skills</div>
+        <div class="skills-flex">
+            <div class="skills-bar">
+                <div class="bars">
+                    <div class="bar-box">
+                        <h3>HTML</h3>
+                        <span>94%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar html-bar"></div>
+                    </div>
+                    <div class="bar-box">
+                        <h3>CSS</h3>
+                        <span>90%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar css-bar"></div>
+                    </div>
+                    <div class="bar-box">
+                        <h3>JAVA</h3>
+                        <span>70%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar java-bar"></div>
+                    </div>
+                    <div class="bar-box">
+                        <h3>JAVASCRIPT</h3>
+                        <span>60%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar javascript-bar"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="skills img.png" alt="img">
+            </div>
+        </div>
+    </section>
+    <!-- Expertise -->
+    <section class="Expertise" id="Expertise">
+        <h1 class="Expertise-h1 aboutMe-h1">Area of Expertise</h1>
+        <div class="Expertise-sub sub">Areas</div>
+        <div class="Expertise-flex">
+            <div class="web-development">
+                <img src="web-development.jpg" alt="img">
+                <div class="web-sub">FrontEnd Development</div>
+            </div>
+            <div class="ui">
+                <img src="ui img.png" alt="img">
+                <div class="ui-sub">UI/UX Design</div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h1 class="aboutMe-h1 Expertise-h1">Projects</h1>
+        <div class="Expertise-sub sub">Recent Projects</div>
+        <div class="project-list">
+            <div class="project-1">
+                <a href="https://yashjain0007.github.io/Swiggy-clone/main.html" target="_blank"><img
+                        src="Swiggy img.png" alt="image"></a>
+                <div>Swiggy Landing Page Clone &nbsp &nbsp &nbsp</div>
+            </div>
+            <div class="project-2">
+                <a href="https://yashjain0007.github.io/pizza/main.html" target="blank"><img src="pizza img.jpeg"
+                        alt="image"></a>
+                <div>Pizza Restaurant Landing Page</div>
+            </div>
+            <div class="project-3">
+                <a href="https://yashjain0007.github.io/Bootstrap/main.html"><img src="Bootstrap_image.png"
+                        alt="image"></a>
+                <div>Project Using Bootstrap</div>
+            </div>
+
+        </div>
+    </section>
+    <!-- contact form -->
+    <section class="contact" id="contact">
+
+        <h1 class="aboutMe-h1 contact-h1">Contact Me</h1>
+        <div class="contact-sub sub">Contact with me</div>
+
+        <form action="mailto:yashjain3446@gmail.com">
+
+            <input type="text" name="name" placeholder="Your Name" id="name">
+            <input type="email" name="email" placeholder="Email Adress" id="email">
+            <textarea name="message" id="me" cols="30" rows="10" placeholder="Message"></textarea>
+            <button class="submit">Submit</button>
+        </form>
+
+    </section>
+
+</body>
+
+</html>
